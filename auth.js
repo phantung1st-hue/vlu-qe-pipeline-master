@@ -1,3 +1,5 @@
+// Improve login validation on feature branch
+
 function login(username, password, isLocked = false) {
     if (isLocked) {
         return false;
